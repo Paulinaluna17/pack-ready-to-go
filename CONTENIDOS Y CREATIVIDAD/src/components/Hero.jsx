@@ -1,0 +1,4 @@
+import { Link } from 'react-router-dom';
+export default function Hero() {
+ return <section className="hero"><div><p className="eyebrow">TU PRÓXIMO VIAJE EMPIEZA ACÁ</p><h1>Ready<br />to <em>go?</em></h1><p>Tres viajes. Una valija.<br />Elegí lo que importa antes de que se termine el tiempo.</p><Link className="primary-button" to="/game/city">EMPEZAR EL RECORRIDO ↗</Link><span className="hero-note">Sin descargas. Solo ganas de viajar.</span></div><div className="hero-art" aria-hidden="true"><div className="orbit orbit-one"></div><div className="orbit orbit-two"></div><span className="sticker sticker-top">NEXT STOP<br /><b>ANYWHERE.</b></span><div className="hero-case"><div className="case-handle"></div><div className="case-lines"></div><b>PACK</b><span className="case-tag">READY<br />TO GO ↗</span></div><span className="sticker sticker-bottom">✈ BOARDING NOW</span></div></section>;
+}
